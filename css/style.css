@@ -1,6 +1,3 @@
-header{
-  height: 150px;
-}
 
 .logo{
   height: 50%;
@@ -9,4 +6,45 @@ header{
 .header-top img{
   height: 18px;
   margin: 10px 10px;
+}
+
+.jumbotron{
+  background-image: url(../img/jumbo-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  width: 100%;
+}
+
+.sc-inner{
+  height: 100%;
+}
+
+.sc-inner{
+  display: flex;
+}
+
+.jumbo-caption{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.jumbo-caption h2, p{
+  margin-bottom: 30px;
+}
+
+.jumbo-caption p{
+  width: 60%;
+}
+.btn-red{
+  font-size:15px ;
+  padding: 8px;
+  background-color: red;
+  color: white;
+  width: 130px;
+  border: 1px solid black;
+  border-radius: 50px;
 }
