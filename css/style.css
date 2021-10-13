@@ -12,8 +12,8 @@
   background-image: url(../img/jumbo-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 650px;
   width: 100%;
+  height: 650px;
 }
 
 .sc-inner{
@@ -24,13 +24,12 @@
   display: flex;
 }
 
-.jumbo-caption{
-  width: 50%;
+ .jumbo-caption{
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
-  margin-bottom: 20px;
-}
+  margin-bottom: 40px;
+} 
 
 .jumbo-caption h2, p{
   margin-bottom: 30px;
