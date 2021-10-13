@@ -14,7 +14,6 @@
   background-size: cover;
   width: 100%;
   background-position: center;
-  /* altezza placeholder */
   height: 700px;
 }
 
@@ -69,7 +68,7 @@
 }
 
 .ps5{
-  margin: 50px auto;
+  margin: 100px auto;
 }
 
 .btn-blue{
@@ -109,4 +108,22 @@
 
 .active img{
   opacity: 1;
+}
+
+.jumbotron-news{
+  height: 1200px;
+}
+
+.jumbo-news-top{
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  height: 50%;
+}
+
+.jumbo-news-bottom{
+  height: 50%;
+  background-color: #1F1F1F;
 }
