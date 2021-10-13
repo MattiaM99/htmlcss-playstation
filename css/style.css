@@ -53,13 +53,12 @@
 
 .games-carousel{
   margin-top:50px;
-  height: 200px;
 }
 
 .box{
   margin: 10px; 
   height: 140px;
-  width: 250px;
+  width: 240px;
   padding: 15px;
 }
 
@@ -67,4 +66,47 @@
   height: 100%;
   width: 100%;
   border-radius: 15px;
+}
+
+.ps5{
+  margin: 50px auto;
+}
+
+.btn-blue{
+  font-size:15px ;
+  padding: 8px;
+  background-color: rgb(69, 69, 196);
+  color: white;
+  border: 1px solid rgb(69, 69, 196);
+  border-radius: 50px;
+}
+
+.ps5-prev{
+  width: 100%;
+}
+
+.ps5-prev img{
+  width: 80% ;
+}
+
+.box-prev{
+  margin: 10px; 
+  height: 150px;
+  width: 150px;
+}
+
+.box-prev img{
+  opacity: 0.5;
+  margin-bottom: 5px;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.active p{
+  border-bottom: 2px solid blue;
+}
+
+.active img{
+  opacity: 1;
 }
