@@ -58,8 +58,9 @@
 
 .box{
   margin: 10px; 
-  height: 100px;
-  width: 200px;
+  height: 140px;
+  width: 250px;
+  padding: 15px;
 }
 
 .box img{
