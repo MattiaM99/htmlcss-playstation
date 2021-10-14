@@ -25,7 +25,7 @@
   justify-content: flex-end;
   flex-direction: column;
   margin-bottom: 40px;
-  padding: 200px 0 0 0;
+  padding: 400px 0 0 0;
 } 
 
 .jumbo-caption h2, p{
@@ -207,4 +207,13 @@
   padding: 10px;
   border: 1px solid #D9DADC;
   border-radius: 50px;
+}
+
+.social h2{
+  margin: 50px 0;
+}
+
+.social img{
+  width: 50%;
+  margin: 15px;
 }
