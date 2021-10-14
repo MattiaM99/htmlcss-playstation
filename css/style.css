@@ -111,7 +111,7 @@
 }
 
 .jumbotron-news{
-  height: 1200px;
+  height: 1400px;
 }
 
 .jumbo-news-top{
@@ -120,10 +120,22 @@
   background-size: cover;
   width: 100%;
   background-position: center;
-  height: 50%;
+  height: 45%;
 }
 
 .jumbo-news-bottom{
-  height: 50%;
+  min-height: 700px;
   background-color: #1F1F1F;
+}
+
+.box-new{
+  height: 180px;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+
+.box-new img{
+  height: 100%;
+  border-radius: 15px;
 }
