@@ -153,3 +153,30 @@
 .ps4{
   margin: 100px auto;
 }
+
+.ps-plus{
+  height: 500px;
+  background-color: #BEBCBB;
+}
+
+.ps-plus-left{
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.ps-plus-left img{
+  height: 100px;
+  margin: 20px;
+}
+
+.btn-plus{
+  background-color: #D9DADC;
+  color: #3D6FE5;
+  padding: 10px;
+  border: 1px solid #D9DADC;
+  border-radius: 50px;
+}
+
+.ps-plus-right img{
+  height: 500px;
+}
