@@ -167,7 +167,7 @@
 }
 
 .ps-plus-right img{
-  height: 500px;
+  width: 100%;
 }
 
 .sconti{
@@ -175,10 +175,9 @@
 }
 
 .box-sconti{
-  height: 500px;
   padding: 50px;
 }
 
 .box-sconti img{
-  height: 100%;
+  width: 100%;
 }
