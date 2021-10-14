@@ -18,11 +18,8 @@
 }
 
 .sc-inner{
-  height: 100%;
-}
-
-.sc-inner{
   display: flex;
+  height: 100%;
 }
 
  .jumbo-caption{
@@ -54,15 +51,13 @@
   margin-top:50px;
 }
 
-.box{
-  margin: 10px; 
-  height: 140px;
-  width: 240px;
-  padding: 15px;
+.box-carousel{
+  height: 100px;
+  width: 200px;
+  border-radius: 15px;
 }
 
-.box img{
-  height: 100%;
+.box-carousel img{
   width: 100%;
   border-radius: 15px;
 }
@@ -85,7 +80,7 @@
 }
 
 .ps5-prev img{
-  width: 80% ;
+  width: 100% ;
 }
 
 .box-prev{
@@ -160,13 +155,12 @@
 }
 
 .ps-plus-left{
-  margin-top: 100px;
-  margin-left: 50px;
+  height: 100%;
 }
 
 .ps-plus-left img{
   height: 100px;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .btn-plus{
@@ -177,6 +171,23 @@
   border-radius: 50px;
 }
 
+.ps-plus-right{
+  height: 100%;
+}
+
 .ps-plus-right img{
   height: 500px;
+}
+
+.sconti{
+  margin-top: 100px;
+}
+
+.box-sconti{
+  height: 500px;
+  padding: 50px;
+}
+
+.box-sconti img{
+  height: 100%;
 }
