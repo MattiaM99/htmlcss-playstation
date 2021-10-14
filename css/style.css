@@ -124,7 +124,7 @@
 }
 
 .jumbo-news-bottom{
-  min-height: 700px;
+  height: 55%;
   background-color: #1F1F1F;
 }
 
@@ -148,4 +148,8 @@
   margin-bottom: 5px;
   height: 100%;
   width: 100%;
+}
+
+.ps4{
+  margin: 100px auto;
 }
