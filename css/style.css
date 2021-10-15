@@ -2,11 +2,24 @@
   height: 50%;
 }
 
+/* HEADER */
 .header-top img{
   height: 18px;
   margin: 10px 10px;
 }
 
+.btn-accedi{
+  border-radius: 25px;
+  background-color: #363636; 
+  color: white;
+  padding: -5px;
+}
+
+.btn-accedi:hover{
+  color: white;
+  border: 4px solid white;
+}
+/* PRIMO JUMBOTRON */
 .jumbotron{
   background-image: url(../img/jumbo-bg.png);
   background-repeat: no-repeat;
@@ -45,22 +58,34 @@
   border-radius: 50px;
 }
 
+/* CAROSELLO */
 .games-carousel{
   margin-top:50px;
 }
 
 .box-carousel{
   height: 100px;
-  width: 200px;
+  width: 215px;
   border-radius: 15px;
   margin-bottom: 20px;
 }
 
 .box-carousel img{
+  padding: 5px;
   width: 100%;
   border-radius: 15px;
 }
 
+.carousel-active img{
+  border: 2px solid blue;
+}
+
+.box-carousel img:hover{
+  transition: .5s;
+  margin-top: -15px;
+}
+
+/* PS5 */
 .ps5{
   margin: 100px auto;
 }
@@ -103,11 +128,18 @@
   opacity: 1;
 }
 
+/* SECONDO JUMBO */
 .jumbo-news-top{
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.jumbo-caption img{
+  position: absolute;
+  width: 300px;
+  top: 20%;
 }
 
 .jumbo-news-bottom{
@@ -123,6 +155,7 @@
   border-radius: 15px;
 }
 
+/* PS4 */
 .ps4-box{
   margin: 10px; 
 }
@@ -137,12 +170,14 @@
   margin: 100px auto;
 }
 
+/* PS PLUS */
 .ps-plus{
   background-color: #BEBCBB;
 }
 
 .ps-plus-left{
   height: 100%;
+  padding: 15px;
 }
 
 .ps-plus-left img{
@@ -166,6 +201,7 @@
   width: 100%;
 }
 
+/* SCONTI */
 .sconti{
   margin-top: 100px;
 }
@@ -178,6 +214,7 @@
   width: 100%;
 }
 
+/* PS NOW */
 .ps-now{
   background-color: #161C3B;
   color: white;
@@ -185,6 +222,7 @@
 
 .ps-now-left{
   height: 100%;
+  padding: 15px;
 }
 
 .ps-now-left img{
@@ -208,6 +246,7 @@
   border-radius: 50px;
 }
 
+/* SOCIAL */
 .social h2{
   margin: 50px 0;
 }
@@ -217,10 +256,12 @@
   margin: 15px;
 }
 
+/* FOOTER */
 footer{
   background-color:#00439C;
   padding: 80px;
   color: white;
+  margin-top: 50px;
 }
         
 footer ul{
