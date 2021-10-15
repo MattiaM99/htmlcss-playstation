@@ -51,6 +51,10 @@
   padding: 400px 0 0 0;
 } 
 
+.jumbo-caption h2{
+  font-size: 40px;
+}
+
 .jumbo-caption h2, p{
   margin-bottom: 30px;
 }
@@ -160,10 +164,9 @@
 }
 
 .jumbo-caption img{
-  position: absolute;
   width: 300px;
-  top: 20%;
 }
+
 
 .jumbo-news-bottom{
   background-color: #1F1F1F;
